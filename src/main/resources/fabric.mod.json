@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "green_shield",
+  "version": "${version}",
+  "name": "A New Corps - Green Shield",
+  "description": "A manually activated cubic green energy barrier for Minecraft 1.20.1 Fabric.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.greenshield.GreenShield"],
+    "client": ["com.example.greenshield.GreenShieldClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "fabric-api": "*",
+    "java": ">=17"
+  }
+}
